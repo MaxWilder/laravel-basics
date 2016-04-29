@@ -19,14 +19,14 @@
           </div>
           <div class="form-group">
             <label for="password">Your Password</label>
-            <input class="form-control" type="pasword" name="password" id="password">
+            <input class="form-control" type="password" name="password" id="password">
           </div>
           <div class="form-group">
-            <label for="pasword_conf">Confirm Password</label>
-            <input class="form-control" type="pasword" name="pasword_conf" id="pasword_conf">
+            <label for="password_conf">Confirm Password</label>
+            <input class="form-control" type="password" name="password_conf" id="password_conf">
           </div>
           <button type="submit" class="btn btn-primary">Create</button>
-          <input type="hidden" name="_token" value="{{ Session::token() }}"
+          <input type="hidden" name="_token" value="{{ Session::token() }}">
         </form>
       </div>
       <div class="col-md-6">
