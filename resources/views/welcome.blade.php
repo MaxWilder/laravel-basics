@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-  Geoff's Laravel Test
+  Laravel Login Page
 @endsection
 
 @section('content')
