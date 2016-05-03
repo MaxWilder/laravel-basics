@@ -40,6 +40,11 @@ Route::post('/updateaccount', [
   'as' => 'account.save'
 ]);
 
+Route::get('/userimage/{filename}', [
+  'uses' => 'UserController@getUserImage',
+  'as' => 'account.image'
+]);
+
 Route::get('/dashboard', [
   'uses' => 'PostController@getDashboard',
   'as' => 'dashboard',
