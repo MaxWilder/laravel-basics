@@ -81,5 +81,6 @@ class PostController extends Controller
     } else {
       $like->save();
     }
+    return null; //might want to change this to a success or failure message.
   }
 }
